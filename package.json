@@ -1,0 +1,19 @@
+{
+  "name": "jstest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "csv-writer": "^1.6.0",
+    "jsdom": "^19.0.0",
+    "objects-to-csv": "^1.3.6"
+  }
+}

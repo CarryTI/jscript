@@ -31,6 +31,7 @@ export async function compaire(url){
     let row = await generateSeoRow(document);
     let stageRow = await generateSeoRow(stageDocument);
 
+    console.log(url);
     for (let i in row)
         if (row[i] !== stageRow[i] && await toStage(row[i]) !== stageRow[i]){
             console.log(`${row[i]} != ${stageRow[i]}`)

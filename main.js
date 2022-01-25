@@ -21,3 +21,7 @@ for (let url of urls) {
 urls.push(...ukr_urls);
 let table = await generateSeoTable(urls);
 await generateCSV(table);
+
+for (let url of urls) {
+    await compaire(url);
+}
